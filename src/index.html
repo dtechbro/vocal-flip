@@ -12,7 +12,7 @@
 
     <!-- starting the navbar here -->
     <header>
-        <nav class="flex justify-between items-center w-[90%] mx-auto h-[60px]">
+        <nav class="flex justify-between items-center w-[80%] mx-auto h-[60px]">
             <div>
                 <img src="./img/logo-purple.png" alt="vocalflip">
             </div>
@@ -33,27 +33,33 @@
                 </ul>
             </div>
             <div class="flex items-center gap-[2vw]">
-                <button class="py-2 px-6 border-solid border-2 border-[#6366F1] rounded-md">Log In</button>
-                <button class="py-2 px-6 bg-[#6366F1] text-white rounded-md">Sign Up</button>
+                <button class="py-2 px-6 border-solid border-2 border-primary rounded-md">Log In</button>
+                <button class="py-2 px-6 bg-primary text-white rounded-md">Sign Up</button>
             </div>
         </nav>
     </header>
 
     <!-- hero section starts here -->
-    <main class="flex w-[90%] mx-auto">
-        <div>
-            <h1>Learning made easy with flashcard</h1>
-            <p>going steadily with new language learning</p>
+    <main class="flex items-center mx-auto w-[80%] my-10 justify-between">
+        <div class="w-[50%]">
+            <h1 class="font-extrabold text-5xl">Unlock Language Mastery with Interactive Flashcards</h1>
+
+            <p class="mt-[15px] mb-[60px]">Learn, Remember, and Speak with Confidence....</p>
+
+            <button class="flex items-center bg-primary py-3 px-9 rounded-md text-white">
+                <p>Get Started</p>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
         </div>
 
-        <div>
-            <img class="" src="./img/boy-img.jpg" alt="boy learning a language">
+        <div class="w-[45%]">
+            <img class="" src="./img/hero-img.png" alt="hero image">
         </div>
     </main>
 
     <!-- footer of the site with all information about vocal flip -->
     <footer class="flex justify-between">
-        <div class="space-y-10">
+        <div class="">
             <h3 class="font-bold">About us</h3>
             <ul>
                 <li>
@@ -132,5 +138,12 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
