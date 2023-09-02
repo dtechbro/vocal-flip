@@ -9,99 +9,131 @@
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/asset/favicon.png" type="image/x-icon">
 </head>
-<body>
-    <header>
+<body class="bg-body">
+    <header class="flex w-[85%] mx-auto justify-between h-[80px] items-center">
         <img src="../img/asset/logo-purple.png" alt="vocal flip logo">
-        <a href="./home.html">Get started</a>
+        <a href="./home.html" class="text-white bg-primary px-6 py-2 rounded-md">Get started</a>
     </header>
 
-    <main>
-        <div>
+    <main class="md:flex w-[85%] justify-between mx-auto mt-5 mb-10 items-center">
+        <div class="w-[50%] flex flex-col items-start gap-[50px]">
             <div>
-                <h1>VOCAL-FLIP</h1>
-                <p>Learning new languages made easy with flashcards</p>
+                <h1 class="font-extrabold text-5xl mb-[5px]">VOCAL-FLIP</h1>
+                <p class="text-lg">Learning new languages made easy with flashcards</p>
             </div>
             <div>
-                <a href="./home.html">Get started</a>
+                <a href="./home.html" class="text-white bg-primary px-6 py-2 rounded-md">Get started</a>
             </div>
         </div>
 
-        <div>
+        <div class="w-[45%]">
             <img src="../img/asset/hero-img.png" alt="hero section image">
         </div>
     </main>
 
-    <section>
-        <article>
+    <section class="bg-white px-[10%] pt-7">
+        <article class="md:flex items-center gap-[7px]">
             <div>
-                <img src="" alt="">
+                <img src="../img/asset/learning.png" alt="learning structure">
             </div>
 
             <div>
-                <h2>Personalized learning</h2>
+                <h2 class="font-bold text-3xl">Personalized learning</h2>
                 <p>Tailor your experience by creating custom learning categories or topics. Focus on what matters most to you, whether it's travel phrases, business vocabulary, or daily expressions.</p>
             </div>
         </article>
 
-        <article>
+        <article class="md:flex items-center gap-[7px]">
             <div>
-                <h1>Flashcards for easy learning</h1>
+                <h2 class="font-bold text-3xl mb-[7px]">Flashcards for easy learning</h1>
                 <p>Dive into our dynamic flashcards, complete with flip animations. Effortlessly mark cards as 'known' or 'unknown' as you go, guiding your learning journey.</p>
             </div>
 
             <div>
-                <img src="" alt="">
+                <img src="../img/asset/flashcard.png" alt="">
             </div>
         </article>
 
-        <article>
+        <article class="md:flex items-center gap-[7px]">
             <div>
-                <img src="" alt="">
+                <img src="../img/asset/translator.png" alt="audio translation">
             </div>
 
             <div>
-                <h1>Audio translation</h1>
+                <h2 class="font-bold text-3xl">Audio translation</h1>
                 <p>Experience language immersion with accurate audio pronunciation. Listen to native speakers to enhance your speaking and listening skills.</p>
             </div>
         </article>
     </section>
 
+    <!-- about us section, the project idea -->
     <section>
-
-        <!-- about us section, the project idea -->
-        <article>
-            <h1>About us</h1>
+        <article class="w-[80%] mx-auto mt-20">
+            <h1 class="font-bold text-3xl mb-10">About <span class="text-primary">us</span></h1>
 
             <p>Learning new languages has always intrigued me. The need to communicate with people who don't share my language can often be a barrier to meaningful conversations. As I endeavor to build a diverse network of individuals, I recognize that not everyone may comprehend my native tongue. Consequently, I turned to language learning platforms like Duolingo. However, I found that it didn't fully address all the challenges I faced. This realization led me to create Vocal-Flip, a tool designed to make language learning easier and more accessible, eliminating the hassles associated with communication barriers.</p>
         </article>
     </section>
 
+    <!-- The team member section -->
     <section>
-
-        <!-- The team member section -->
-        <article>
+        <article class="flex flex-col gap-7 w-[80%] mx-auto mt-20">
             <div>
-                <h1>Team</h1>
+                <h1 class="font-bold text-3xl mb-10 text-primary">The Team</h1>
             </div>
 
             <!-- team member card -->
-            <div>
-                <div>
+            <div class="bg-white rounded-lg flex flex-col gap-20 items-center py-10 w-80">
+                <div class="flex flex-col gap-1 items-center">
                     <div>
-                        <img src="" alt="">
+                        <img src="../img/asset/S-Eng.png" alt="">
                     </div>
 
-                    <div>
-                        <h3>Muhammad-Nabeel</h3>
+                    <div class="flex flex-col items-center">
+                        <h3 class="font-semibold text-xl">Muhammad-Nabeel</h3>
                         <p>Software Engineer</p>
                     </div>
                 </div>
 
                 <div>
                     <!-- three social icon goes here -->
+                    <a href="https://github.com/dtechbro" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+
+                    <a href="https://x.com/dtechbro" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    
+                    <a href="">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a> 
                 </div>
             </div>
         </article>
     </section>
+
+    <!-- the end, footer with links -->
+    <footer class="bg-primary">
+        <div>
+            <p>&copy; @2023 vocal-flip </p>
+        </div>
+
+        <div>
+            <!-- vocal-flip socials goes here -->
+            
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
