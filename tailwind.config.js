@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  enabled: process.env.NODE_ENV === 'production',
+  content: ["./build/pages/*.html", "./build/script/*.js"],
   theme: {
     extend: {
       colors: {
