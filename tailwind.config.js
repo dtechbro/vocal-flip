@@ -2,13 +2,7 @@
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
-  purge: {
-    enabled: process.env.NODE_ENV === 'production',
-    content: [
-      "./src/**/*.html",
-      "./src/**/*.js", // Add other file paths as needed
-    ],
-  },
+  enabled: process.env.NODE_ENV === 'production',
   theme: {
     extend: {
       colors: {
